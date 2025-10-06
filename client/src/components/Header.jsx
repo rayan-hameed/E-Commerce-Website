@@ -57,7 +57,7 @@ const Header = () => {
       {" "}
       <Container className="py-4 lg:py-6 flex items-center gap-x-3 md:gap-x-7 justify-between">
         <Link to={"/"} className="flex-shrink-0">
-          <img src={logo} alt="logo" className="h-5 w-auto" />
+          <h3 className="text-[35px] font-bold">MRH</h3>
         </Link>
 
         <SearchInput />

@@ -1,4 +1,4 @@
-import PremiumMessage from "../components/PremiumMessage";
+import React from "react";
 
 const Contacts = () => {
   const contactFeatures = [
@@ -11,11 +11,11 @@ const Contacts = () => {
   ];
 
   return (
-    <PremiumMessage
+    <p
       title="Advanced Contact Management"
       description="Manage customer inquiries, support tickets, and communications with our comprehensive contact management system."
       features={contactFeatures}
-    />
+    >MRH</p>
   );
 };
 

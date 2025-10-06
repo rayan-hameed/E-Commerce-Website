@@ -1,8 +1,7 @@
-import PremiumMessage from "../components/PremiumMessage";
-
+import React from "react";
 const Contact = () => {
   return (
-    <PremiumMessage
+    <p
       title="Contact Features"
       description="Professional contact system with messaging, admin dashboard, and real-time functionality"
       showFeatures={true}

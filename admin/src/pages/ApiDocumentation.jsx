@@ -1,5 +1,4 @@
-import PremiumMessage from "../components/PremiumMessage";
-
+import React from "react";
 const ApiDocumentation = () => {
   const apiFeatures = [
     "Complete REST API documentation",
@@ -11,11 +10,8 @@ const ApiDocumentation = () => {
   ];
 
   return (
-    <PremiumMessage
-      title="API Documentation & Integration"
-      description="Access comprehensive API documentation, testing tools, and integration resources for developers."
-      features={apiFeatures}
-    />
+    <p
+    >MRH</p>
   );
 };
 

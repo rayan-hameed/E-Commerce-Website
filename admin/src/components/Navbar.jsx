@@ -1,7 +1,6 @@
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { useState, useRef, useEffect } from "react";
-import { logo } from "../assets/images";
 import { FaUser, FaCog, FaChevronDown, FaUserShield } from "react-icons/fa";
 import { MdNotifications, MdDashboard } from "react-icons/md";
 
@@ -59,11 +58,9 @@ const Navbar = () => {
       <div className="py-2.5 flex items-center justify-between px-4">
         {/* Logo Section */}
         <Link to={"/"} className="flex items-center gap-3 group">
-          <img
-            src={logo}
-            alt="logo"
-            className="w-20 sm:w-24 transition-transform duration-200 group-hover:scale-105"
-          />
+          <p
+            className="font-bold text-[35px]"
+          >MRH</p>
           <div className="hidden sm:block">
             <p className="text-xs uppercase font-bold tracking-wide text-blue-600">
               Admin Panel
