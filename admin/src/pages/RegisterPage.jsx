@@ -84,9 +84,7 @@ const RegisterPage = () => {
       <div className="w-full max-w-md">
         {/* Logo Section */}
         <div className="text-center mb-4">
-          <div className="bg-white p-3 rounded-md shadow-lg inline-block  transform hover:scale-105 transition-transform duration-300">
-            <img src={logo} alt="logo" className="w-20" />
-          </div>
+          
           <h1 className="text-3xl font-bold text-gray-800 mb-2">
             Create Account
           </h1>
