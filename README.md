@@ -1,8 +1,6 @@
-# 🛒 Orebi Shopping - Full Stack E-commerce Platform
+# 🛒 MRH Shopping - Full Stack E-commerce Platform
 
 A complete, production-ready e-commerce solution built with modern technologies including React.js, Node.js, Express, MongoDB, Redux Toolkit, Tailwind CSS, and Stripe payment integration.
-
-![Orebi Shopping Platform](./public/thumbnail.png)
 
 ## 🌟 Features
 
@@ -68,7 +66,6 @@ After purchasing and downloading the code:
 ```bash
 # Extract the downloaded ZIP file
 # Navigate to the project directory
-cd orebishopping-vitejs
 
 # Install dependencies for all components
 # For Server
@@ -325,12 +322,3 @@ After purchase, you'll receive:
 - **Agencies** needing a quick e-commerce solution
 - **Freelancers** delivering client projects
 
-## 💰 Purchase
-
-Get the complete source code at: **[Your BuyMeACoffee Link]**
-
----
-
-**Built with ❤️ by [Your Name]**
-
-_Need custom modifications or have questions? Contact me at [noor.jsdivs@gmail.com]_
